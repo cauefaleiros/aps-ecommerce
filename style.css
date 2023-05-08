@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Tenor+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+html {
+     font-size: 62.5%; 
+/* 62.5%=10px / 100%=16px, logo, 1rem é igual a 16px, porém se colocar ele padrão como 62.5% 1rem terá um total de 10px. */
+}
+
+body {
+    background-color: #fbfbf9;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fbfbf9;
+}
+
+header a {
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+}
+
+header hr {
+    margin-top: 3rem;
+}
+
+section h1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+}
+
+main h1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+}
+
+.text-under {
+    display: flex;
+}
+
+.bar-promo {
+    width: 22.5rem;
+    height: 0.5rem;
+    background-color: #b65fb6;
+    margin-left: 5.3rem;
+}
+
+.bar-destaques {
+    width: 21.2rem;
+    height: 0.5rem;
+    background-color: #b65fb6;
+    margin-left: 5.3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fbfbf9
+}
+
+.logo {
+    color: #212121;
+    font-size: 2.5rem;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.navsearch {
+    width: 50rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+.btn {
+    border: 0;
+    background: transparent;
+    margin-left: -2.8rem;
+
+}
+
+.btn img {
+    width: 16px;
+    height: 16px;
+}
+
+.icon {
+    margin: 2rem;
+    font-size: 4rem;
+}
+
+.header--icons a {
+    color: #000;
+}
+
+.header--content ul {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content:hover {
+    color: #b65fb6;
+}
+
+
+#banner {
+    background-image: url(assets/images/1614367807_full22x.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 42rem;
+    margin-top: 20rem;
+}
+
+.secao {
+    width: 40rem;
+    height: 25rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.nintendo {
+    background-image: url(assets/images/nintendo_logo.webp);
+}
+
+.playstation {
+    background-image: url(assets/images/sony_logo.jpg);
+}
+.xbox {
+    background-image: url(assets/images/xbox_logo.png);
+}
+
+.container-frete {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    background-color: #191919;
+    margin-bottom: 3rem;
+    color: #fff;
+    font-size: 9rem;
+    /* background-image: url(assets/images/blog-frete-gratis-Frame-100-1200x320.png); */
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+.destaques {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 50rem;
+    background-color: #fff;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+}
+
+.destaques h3 {
+    color: #191919;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.destaques h4 {
+    color: #191919;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+
+.destaques img {
+    width: 25rem;
+    height: 28rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.btn-dest {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.destaques button {
+    padding: 1rem;
+    width: 15rem;
+    margin-left: 1rem;
+    background-color: #b65fb6;
+    border-radius: 1rem;
+    color: #fff;
+    border-style: none;
+}
+
+.destaques a {
+    color: #b65fb6;
+}
+
+.promo {
+    width: 30em;
+    height: 50rem;
+    background-color: #b65fb6;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+}
+
+footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #191919;
+}
+
+
