@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <title>Taverna</title>
 </head>
 <body>
@@ -48,49 +50,52 @@
         <h1>Destaques</h1>
         <div class="bar-destaques"></div>
         <div class="container">
-        <div class="destaques">
-            <a href="#" class="destaque1"><img src="assets/images/switch-zelda-edition.avif" alt=""></a>
-            <h3>Console Nintendo Switch Oled - Edição Especial The Legend Of Zelda: Tears Of The Kingdom</h3>
-            <h4>R$ 2899,99</h4>
-            <div class="btn-dest">
-                <button>Comprar</button>
-                <a href=""><i class='bx bx-cart icon'></i></a>
-                <a href=""><i class='bx bxs-heart icon heart'></i></a>
-            </div>
-        </div>
 
-        <div class="destaques">
-            <a href="#" class="destaque2"><img src="assets/images/ps5-ragnarok.webp" alt=""></a>
-            <h3>Console Playstation 5 Digital 825GB + Jogo God Of War: Ragnarok - SONY</h3>
-            <h4>R$ 4299,99</h4>
-            <div class="btn-dest">
-                <button>Comprar</button>
-                <a href=""><i class='bx bx-cart icon'></i></a>
-                <a href=""><i class='bx bxs-heart icon heart'></i></a>
+        <div class="owl-carousel">
+            <div class="destaques">
+                <a href="#" class="destaque1"><img src="assets/images/switch-zelda-edition.avif" alt=""></a>
+                <h3>Console Nintendo Switch Oled - Edição Especial The Legend Of Zelda: Tears Of The Kingdom</h3>
+                <h4>R$ 2899,99</h4>
+                <div class="btn-dest">
+                    <button>Comprar</button>
+                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href=""><i class='bx bxs-heart icon heart'></i></a>
+                </div>
             </div>
-        </div>
 
-        <div class="destaques">
-            <a href="#" class="destaque3"><img src="assets/images/xbox-series-x.webp" alt=""></a>
-            <h3>Console Xbox Series X - Microsoft</h3>
-            <h4>R$ 3999,99</h4>
-            <div class="btn-dest">
-                <button>Comprar</button>
-                <a href=""><i class='bx bx-cart icon'></i></a>
-                <a href=""><i class='bx bxs-heart icon heart'></i></a>
+            <div class="destaques">
+                <a href="#" class="destaque2"><img src="assets/images/ps5-ragnarok.webp" alt=""></a>
+                <h3>Console Playstation 5 Digital 825GB + Jogo God Of War: Ragnarok - SONY</h3>
+                <h4>R$ 4299,99</h4>
+                <div class="btn-dest">
+                    <button>Comprar</button>
+                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href=""><i class='bx bxs-heart icon heart'></i></a>
+                </div>
             </div>
-        </div>
 
-        <div class="destaques">
-            <a href="#" class="destaque4"><img src="assets/images/xbox-series-s.webp" alt=""></a>
-            <h3>Console Xbox Series S - Microsoft</h3>
-            <h4>R$ 2199,99</h4>
-            <div class="btn-dest">
-                <button>Comprar</button>
-                <a href=""><i class='bx bx-cart icon'></i></a>
-                <a href=""><i class='bx bxs-heart icon heart'></i></a>
+            <div class="destaques">
+                <a href="#" class="destaque3"><img src="assets/images/xbox-series-x.webp" alt=""></a>
+                <h3>Console Xbox Series X - Microsoft</h3>
+                <h4>R$ 3999,99</h4>
+                <div class="btn-dest">
+                    <button>Comprar</button>
+                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href=""><i class='bx bxs-heart icon heart'></i></a>
+                </div>
             </div>
-        </div>   
+
+            <div class="destaques">
+                <a href="#" class="destaque4"><img src="assets/images/xbox-series-s.webp" alt=""></a>
+                <h3>Console Xbox Series S - Microsoft</h3>
+                <h4>R$ 2199,99</h4>
+                <div class="btn-dest">
+                    <button>Comprar</button>
+                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href=""><i class='bx bxs-heart icon heart'></i></a>
+                </div>
+            </div> 
+        </div>  
           
     </main>
     <section>
@@ -106,5 +111,10 @@
     <footer>
         ....
     </footer>
+
+
+    <script src="lib/jQuery/jquery.min.js"></script>
+    <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/home/carouselProdutos.js"></script>
 </body>
 </html>
