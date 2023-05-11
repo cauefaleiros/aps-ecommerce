@@ -1,8 +1,12 @@
 const btnPesquisar = document.getElementById("btnPesquisar")
+const inputPesquisar = document.getElementById("navPesquisar")
 
-function btnEventoPesquisar() {
-    let textoPesquisar = document.getElementById("navPesquisar").value
-
-    window.location.href = "catalogo/index.html?pesquisa=" + textoPesquisar
+function eventoPesquisar() {
+    window.location.href = "catalogo/index.html?pesquisa=" + inputPesquisar.value
 }
-btnPesquisar.addEventListener("click", btnEventoPesquisar)
+
+btnPesquisar.addEventListener("click", eventoPesquisar)
+inputPesquisar.addEventListener("keyup", (evento)=> {
+    if(evento.key === "Enter" && inputPesquisar.value != "")
+        eventoPesquisar()
+})
