@@ -15,11 +15,11 @@
 
         <header class="sticky">
             <div class="navbar">
-                <div class="logo"><h1>taverna</h1></div>
+                <div class="logo"><h1><a href="../index.html">taverna</a></h1></div>
                 <div class="header--icons">
-                    <a href=""><i class='bx bxs-user-circle icon'></i></a>
+                    <a href="../conta/acessar.html"><i class='bx bxs-user-circle icon'></i></a>
                     <a href=""><i class='bx bxs-heart icon heart'></i></a>
-                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href="../carrinho/index.html"><i class='bx bx-cart icon'></i></a>
                 </div>
             </div>
             <hr>
@@ -36,13 +36,13 @@
         </header>
 
         <div class="container-fluid row conteudo">
-            <div class="container col-12 my-4 row">
+            <div class="container col-12 my-4 row d-flex align-items-center">
                 <span class="col-5"></span>
-                <h5 class="col-1">Pesquisar</h5>
+                <h5 id="texto_pesquisa" class="col-1">Pesquisar</h5>
                 <input id="barra_pesquisa" class="form-control-sm col-6" type="search" placeholder="Faça sua busca aqui">
             </div>
 
-            <div id="opcoes_filtragem" class="container col-3 bg-light border border-success">
+            <div id="opcoes_filtragem" class="container col-3 bg-light">
                 <h4 class="my-3">Ordenar</h4>
                 <div class="row my-3">
                     <button id="ordenarCrescente" class="btn btn-success col-5 mx-2">barato → caro</button>
@@ -93,7 +93,7 @@
             </div>
 
             <div class="container col-9">
-                <div class="container bg-success text-light text-center" style="height: 25px">
+                <div id="containerContadorResultados" class="container text-light text-center" style="height: 25px">
                     <p id="label_resultados">Nenhum resultado encontrado</p>
                 </div>
 

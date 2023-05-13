@@ -48,6 +48,10 @@ header hr {
 .logo h1 {
     font-size: 5rem;
 }
+.logo h1 a {
+    font-family: 'Tenor Sans', sans-serif;
+    text-decoration: none;
+}
 
 .text {
     display: flex;
