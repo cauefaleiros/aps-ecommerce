@@ -15,6 +15,10 @@
 #opcoes_filtragem p, h6, label, button {
     font-size: 1.7rem !important;
 }
+#opcoes_filtragem button {
+    color: white;
+    background-color: #b65fb6;
+}
 
 
 #containerContadorResultados {
