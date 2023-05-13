@@ -3,7 +3,7 @@ const listaProdutos = [
         id: 1,
         nome: "Console Xbox Series X - Microsoft",
         preco: 3999.99,
-        thumbnail: "../assets/images/xbox-series-x.webp",
+        thumbnail: "../assets/images/produtos/thumbnail/xbox-series-x.webp",
         imgs: [],
         descricao: "produto de teste",
         tags: [
@@ -15,7 +15,7 @@ const listaProdutos = [
         id: 2,
         nome: "Console Xbox Series S - Microsoft",
         preco: 2199.99,
-        thumbnail: "../assets/images/xbox-series-s.webp",
+        thumbnail: "../assets/images/produtos/thumbnail/xbox-series-s.webp",
         imgs: [],
         descricao: "produto de teste",
         tags: [
@@ -27,7 +27,7 @@ const listaProdutos = [
         id: 3,
         nome: "Console Playstation 5 Digital 825GB + Jogo God Of War: Ragnarok - SONY",
         preco: 4299.99,
-        thumbnail: "../assets/images/ps5-ragnarok.webp",
+        thumbnail: "../assets/images/produtos/thumbnail/ps5-ragnarok.webp",
         imgs: [],
         descricao: "produto de teste",
         tags: [
@@ -39,7 +39,7 @@ const listaProdutos = [
         id: 4,
         nome: "Console Nintendo Switch Oled - Edição Especial The Legend Of Zelda: Tears Of The Kingdom",
         preco: 2899.99,
-        thumbnail: "../assets/images/switch-zelda-edition.avif",
+        thumbnail: "../assets/images/produtos/thumbnail/switch-zelda-edition.avif",
         imgs: [],
         descricao: "",
         tags: [
@@ -51,7 +51,7 @@ const listaProdutos = [
         id: 5,
         nome: "Console Nintendo Switch Vermelho e Azul 32GB",
         preco: 2199.9,
-        thumbnail: "../assets/images/switch-vermelho-azul.jpg",
+        thumbnail: "../assets/images/produtos/thumbnail/switch-vermelho-azul.jpg",
         imgs: [],
         descricao: "",
         tags: [
@@ -63,7 +63,7 @@ const listaProdutos = [
         id: 6,
         nome: "Console Nintendo Cinza 32GB",
         preco: 2199.9,
-        thumbnail: "../assets/images/switch-cinza.jpg",
+        thumbnail: "../assets/images/produtos/thumbnail/switch-cinza.jpg",
         imgs: [],
         descricao: "",
         tags: [
@@ -75,7 +75,7 @@ const listaProdutos = [
         id: 7,
         nome: "Console Playstation 5 Digital 825GB",
         preco: 3799.99,
-        thumbnail: "../assets/images/ps5-digital.webp",
+        thumbnail: "../assets/images/produtos/thumbnail/ps5-digital.webp",
         imgs: [],
         descricao: "",
         tags: [
