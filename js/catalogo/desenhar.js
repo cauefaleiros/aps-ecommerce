@@ -9,13 +9,13 @@ function desenharProdutos(produtos) {
     if(produtos.length <= 0) {
         resultadosEncontrados.innerHTML = "Nenhum resultado encontrado"
     } else {
-        produtos.forEach((el, i)=> {
+        produtos.forEach(el=> {
             template+= `<div class="produtos">
-                            <a href="#" class=""><img src="${el.thumbnail}" alt="imagem produto"></a>
+                            <a href="../produto/index.html?id=${el.id}" class=""><img src="${el.thumbnail}" alt="imagem produto"></a>
                             <h3>${el.nome}</h3>
                             <h4>${formatoMoeda.format(el.preco)}</h4>
                             <div class="btn-dest">
-                                <button>Comprar</button>
+                                <button onclick="window.location = \'../produto/index.html?id=${el.id}\'">Comprar</button>
                                 <a href=""><i class='bx bx-cart icon'></i></a>
                                 <a href=""><i class='bx bxs-heart icon heart'></i></a>
                             </div>

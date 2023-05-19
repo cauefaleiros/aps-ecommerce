@@ -79,8 +79,8 @@ header hr {
     justify-content: space-around;
     color: #fff;
     font-size: 1.7rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .header--content ul a {
@@ -96,6 +96,6 @@ header hr {
 }
 
 .icon {
-    margin: 2rem;
+    margin: 1rem;
     font-size: 3rem;
 }

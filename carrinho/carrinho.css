@@ -8,7 +8,7 @@ a {
 
 #conteudo {
     position: relative;
-    top: 17rem;
+    top: 14rem;
 }
 
 #cart-icon {
@@ -30,7 +30,8 @@ a {
 #produtos .card-produto img {
     width: 8rem;
 }
-#produtos .card-produto h1, p {
+#produtos .card-produto h1, 
+#produtos .card-produto p {
     font-size: 2rem;
 }
 #produtos .card-produto input[type=number] {
@@ -55,10 +56,14 @@ a {
     border-radius: 1rem;
     font-size: 1.5rem !important;
 }
-#infoProd button, p {
+#infoProd button, 
+#infoProd p {
     position: relative;
     top: -50%;
     transform: translate(0, 20%);
+}
+#infoProd p {
+    font-size: 2rem;
 }
 
 #containerAdicionar {
