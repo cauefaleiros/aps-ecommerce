@@ -11,7 +11,7 @@ function desenharProdutos(produtos) {
     } else {
         produtos.forEach(el=> {
             template+= `<div class="produtos">
-                            <a href="../produto/index.html?id=${el.id}" class=""><img src="${el.thumbnail}" alt="imagem produto"></a>
+                            <a href="../produto/index.html?id=${el.id}"><img src="${el.thumbnail}" alt="imagem produto"></a>
                             <h3>${el.nome}</h3>
                             <h4>${formatoMoeda.format(el.preco)}</h4>
                             <div class="btn-dest">

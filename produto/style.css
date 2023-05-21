@@ -6,7 +6,7 @@
 #imgsEscolher img {
     display: block;
     width: 10rem;
-    height: sauto;
+    height: 10rem;
     margin-bottom: 2rem;   
     box-shadow: 2rem 2rem 2rem #ccc;
 }

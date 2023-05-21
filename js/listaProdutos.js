@@ -22,7 +22,7 @@ const listaProdutos = [
         thumbnail: "../assets/images/produtos/thumbnail/xbox-series-s.webp",
         imgs: [
             "../assets/images/produtos/paginaDoProduto/series_s_img1.jpg",
-            "../assets/images/produtos/paginaDoProduto/series_s_img2.jpg",
+            "https://m.media-amazon.com/images/I/61XZh+AsS6L._AC_SX679_.jpg",
             "../assets/images/produtos/paginaDoProduto/series_s_img3.jpg"
         ],
         descricao: "Xbox Series s, nosso Xbox menor e mais elegante de todos os tempos. Com taxas de quadros mais altas, tempos de carregamento mais rápidos e mundos mais ricos e dinâmicos, o Xbox Series S oferece desempenho e velocidade de última geração em um formato compacto e totalmente digital. Experimente uma velocidade e um desempenho de próxima geração com a arquitetura Xbox Velocity alimentada por um ssd personalizado e um software integrado. Imagens meramente ilustrativas. Todas as informações divulgadas são de responsabilidade do Fabricante/Fornecedor.",
