@@ -170,7 +170,10 @@ const listaProdutos = [
             "https://m.media-amazon.com/images/I/71WHp+b6flL._AC_SX425_.jpg"
         ],
         descricao: "controle para Xbox Series X Xbox Series S - Xbox One X sem Fio Carbon Black Preto Experimente o design modernizado do Controle Sem Fio para Xbx Series X/S Carbon Black na cor preta, com superfícies esculpidas e geometria refinada para maior conforto durante o jogo. Fique no alvo com o grip texturizado e um direcional híbrido. Capture e compartilhe conteúdo perfeitamente com um botão Compartilhar dedicado. Conecte-se, jogue e alterne rapidamente entre dispositivos, incluindo Xbox Series X, Xbox Series S, Xbox One, PC com Windows 10, telefones e tablets compatíveis. (Compatível com dispositivos selecionados e versões de sistema operacional. Algumas funcionalidades não são suportadas no Android via Bluetooth. Mapeamento de botões disponível por meio do aplicativo Acessórios do Xbox para Xbox Series X, Xbox Series S, Xbox One e Windows 10).",
-        tags: []
+        tags: [
+            "xbox",
+            "controle"
+        ]
     },
     {
         id: 12,
