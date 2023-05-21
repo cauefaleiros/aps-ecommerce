@@ -6,15 +6,21 @@
 #imgsEscolher img {
     display: block;
     width: 10rem;
-    height: 10rem;
+    height: sauto;
     margin-bottom: 2rem;   
     box-shadow: 2rem 2rem 2rem #ccc;
 }
 
-#selecionada {
+#containerSelecionada {
     width: 46rem;
     height: 46rem;
     box-shadow: 3rem 3rem 3rem #ccc;
+}
+#containerSelecionada #selecionada {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 45rem;
 }
 
 #prodInfo {
