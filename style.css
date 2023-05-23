@@ -17,6 +17,8 @@ body {
     background-color: #fbfbf9;  
 }
 
+/* Header */
+
 .sticky {
     position: fixed;
     top: 0;
@@ -52,17 +54,13 @@ header hr {
 .logo h1{
     font-size: 5rem !important;
 }
+
 .logo p{
     position: relative;
     top: -1rem;
     left: 1rem;
     font-size: 2.5rem !important;
-}
-
-
-.text {
-    display: flex;
-    justify-content: center;
+    margin-left: 0.45rem;
 }
 
 .navsearch {
@@ -106,6 +104,7 @@ header hr {
     color: #b65fb6;
 }
 
+/* Banner */
 
 #banner {
     background-image: url(assets/images/produtos/thumbnail/1614367807_full22x.webp);
@@ -115,6 +114,8 @@ header hr {
     height: 42rem;
     margin-top: 20rem;
 }
+
+/* Seção - logo das empresas */
 
 .container-secao {
     display: flex;
@@ -142,6 +143,8 @@ header hr {
 .xbox {
     background-image: url(assets/images/produtos/thumbnail/xbox_logo.png);
 }
+
+/* Destaques */
 
 .container-destaques {
     display: flex;
@@ -183,7 +186,6 @@ main h1 {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 1rem;
-    /* margin-bottom: 2rem; */
 }
 
 .destaques h4 {
@@ -197,7 +199,6 @@ main h1 {
 
 .destaques img {
     width: 25rem;
-    /* height: 28rem; */
     height: 100%;
     margin-left: 2rem;
     margin-top: 2rem;
@@ -224,6 +225,8 @@ main h1 {
 .destaques a {
     color: #b65fb6;
 }
+
+/* Promoções */
 
 .container-promo {
     display: flex;
@@ -265,7 +268,6 @@ section h1 {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 1rem;
-    /* margin-bottom: 2rem; */
 }
 
 .promo h4 {
@@ -287,7 +289,6 @@ section h1 {
 
 .promo img {
     width: 25rem;
-    /* height: 28rem; */
     height: 100%;
     margin-left: 2rem;
     margin-top: 2rem;
@@ -307,6 +308,8 @@ section h1 {
 .promo a {
     color: #b65fb6;
 }
+
+/* Footer */
 
 footer {
     display: flex;
@@ -335,6 +338,8 @@ footer a {
     font-size: 4rem;
     margin: 1rem;
 }
+
+/* @media - site responsivo */
 
 @media (max-width: 1024px) { 
     #banner {
