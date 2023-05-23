@@ -6,7 +6,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
 }
 
 html {
@@ -15,7 +14,7 @@ html {
 }
 
 body {
-    background-color: #fbfbf9;
+    background-color: #fbfbf9;  
 }
 
 .sticky {
@@ -24,6 +23,7 @@ body {
     width: 100%;
     background-color: #fbfbf9;
 }
+
 
 header a {
     font-family: 'Montserrat', sans-serif;
@@ -72,9 +72,10 @@ main h1 {
     margin-left: 5.3rem;
 }
 
-.container {
+.container-secao {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .navbar {
@@ -83,7 +84,8 @@ main h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #fbfbf9
+    background-color: #fbfbf9;
+    margin-top: 3rem;
 }
 
 .logo {
@@ -91,6 +93,7 @@ main h1 {
     font-size: 2.5rem;
     font-family: 'Tenor Sans', sans-serif;
 }
+
 
 .text {
     display: flex;
@@ -169,23 +172,16 @@ main h1 {
     background-image: url(assets/images/xbox_logo.png);
 }
 
-.container-frete {
+.container-destaques {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 10rem;
-    background-color: #191919;
-    margin-bottom: 3rem;
-    color: #fff;
-    font-size: 9rem;
-    /* background-image: url(assets/images/blog-frete-gratis-Frame-100-1200x320.png); */
-    /* background-position: center; */
-    /* background-size: cover; */
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .destaques {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 30em;
     height: 50rem;
     background-color: #fff;
@@ -199,7 +195,7 @@ main h1 {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 1rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .destaques h4 {
@@ -213,7 +209,8 @@ main h1 {
 
 .destaques img {
     width: 25rem;
-    height: 28rem;
+    /* height: 28rem; */
+    height: 100%;
     margin-left: 2rem;
     margin-top: 2rem;
     padding-bottom: 3rem;
@@ -221,8 +218,6 @@ main h1 {
 
 .btn-dest {
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -242,19 +237,265 @@ main h1 {
     color: #b65fb6;
 }
 
+.container-promo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 .promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 30em;
     height: 50rem;
-    background-color: #b65fb6;
+    background-color: #fff;
     margin-bottom: 7rem;
     margin-top: 5rem;
     border-radius: 2rem;
 }
 
-footer {
-    width: 100%;
-    height: 15rem;
-    background-color: #191919;
+.promo h3 {
+    color: #191919;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    /* margin-bottom: 2rem; */
 }
+
+.promo h4 {
+    color: #191919;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.promo h2 {
+    color: #5e5e5e;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    margin-left: 1.1rem;
+}
+
+
+.promo img {
+    width: 25rem;
+    /* height: 28rem; */
+    height: 100%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.promo button {
+    padding: 1rem;
+    width: 15rem;
+    margin-left: 1rem;
+    background-color: #b65fb6;
+    border-radius: 1rem;
+    color: #fff;
+    border-style: none;
+}
+
+.promo a {
+    color: #b65fb6;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    background-color: #191919;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 2rem;
+    padding-right: 1.5rem;
+}
+
+.footer-logo {
+    font-size: 3rem;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.footer-socials i {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+@media (max-width: 1024px) { 
+    #banner {
+        width: 1112px;
+    } 
+    .secao {
+        width: 30rem;
+        height: 15rem;
+        margin-left: 6rem;
+    }
+    
+    main h1 {
+        margin-left: 6rem;
+    }
+
+    .bar-destaques {
+        margin-left: 6.3rem;
+    }
+
+    .container-destaques {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .destaques {
+        width: 45rem;
+        height: 50rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        margin-left: 6.1rem;
+    }
+
+    .destaques img {
+        width: 28rem;
+    }
+
+    section h1 {
+        margin-left: 6rem;
+    }
+
+    .bar-promo {
+        margin-left: 6.3rem;
+    }
+
+    .container-promo {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .promo {
+        width: 45rem;
+        height: 50rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        margin-left: 6.1rem;
+        margin-bottom: 10rem;
+    }
+
+    .promo img {
+        width: 28rem;
+    }
+
+    footer {
+        width: 1112px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container-secao {
+        margin-left: 33%;
+    }
+    
+    .secao {
+        padding: 15rem;
+    }
+
+    main h1 {
+        margin-left: 15rem;
+        font-size: 5rem;
+    }
+
+    .destaques h3 {
+        font-size: 1.8rem;
+    }
+
+    .destaques h4 {
+        font-size: 2.8rem;
+    }
+
+    .bar-destaques {
+        margin-left: 15.3rem;
+    }
+
+    .container-destaques {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 23rem;
+    }
+
+    .destaques {
+        width: 55rem;
+        height: 55rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .destaques img {
+        width:33rem;
+    }
+
+    section h1 {
+        margin-left: 15rem;
+        font-size: 5rem;
+    }
+
+    .bar-promo {
+        margin-left: 15.3rem;
+    }
+
+    .promo h3 {
+        font-size: 1.8rem;
+    }
+
+    .promo h4 {
+        font-size: 2.8rem;
+    }
+
+    .promo h2 {
+        font-size: 1.8rem;
+    }
+    
+
+    .container-promo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 23rem;
+    }
+
+    .promo {
+        width: 55rem;
+        height: 55rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .promo img {
+        width: 33rem;
+    }
+}
+
+/* @media screen (min-width: 576px) and (max-width: 767.98) { */
+    /* .container-secao { */
+/*          */
+    /* } */
+/*      */
+    /* .secao { */
+/*          */
+/*          */
+/*          */
+    /* } */
+/* } */
 
 

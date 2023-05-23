@@ -6,40 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <title>Taverna</title>
 </head>
 <body>
     <header class="sticky">
         <div class="navbar">
-            <div class="logo"><h1>taverna</h1></div>
-            <div class="text">
-                <input class="navsearch" type="text" placeholder="Ex: Nintendo Switch">
-                <button class="btn">
-                    <img src="assets/icons/loupe.png" alt="">
-                </button>
+            <div class="logo">
+                <h1><a href="index.html">taverna</a></h1>
             </div>
+           <div class="text">
+               <input id="navPesquisar" class="navsearch" type="text" placeholder="Ex: Nintendo Switch">
+               <button id="btnPesquisar" class="btn">
+                   <img src="assets/icons/loupe.png" alt="">
+               </button>
+           </div>
             <div class="header--icons">
-                <a href=""><i class='bx bxs-user-circle icon'></i></a>
+                <a href="conta/acessar.html"><i class='bx bxs-user-circle icon' data-toggle="dropdown"></i></a>
                 <a href=""><i class='bx bxs-heart icon heart'></i></a>
-                <a href=""><i class='bx bx-cart icon'></i></a>
+                <a href="carrinho/index.html"><i class='bx bx-cart icon'></i></a>
             </div>
         </div>
         <hr>
         <nav>
             <div class="header--content">
-                <ul>
-                    <a class="content" href="#"><li>Nintendo</li></a>
-                    <a class="content" href="#"><li>Xbox</li></a>
-                    <a class="content" href="#"><li>Playstation</li></a>
-                    <a class="content" href="#"><li>Acessórios</li></a>
+                <ul> 
+                    <a class="content" href="catalogo/index.html?pesquisa=nintendo"><li>Nintendo</li></a>
+                    <a class="content" href="catalogo/index.html?pesquisa=xbox"><li>Xbox</li></a>
+                    <a class="content" href="catalogo/index.html?pesquisa=playstation"><li>Playstation</li></a>
+                    <a class="content" href=""><li>Acessórios</li></a>
                 </ul>
             </div>
         </nav>
     </header>
     <div id="banner"></div>
     <section>
-        <div class="container">
-           <a class="secao nintendo" href="#"></a>
+        <div class="container-secao">
+           <a class="secao nintendo" href="page01.html" target="_blank"></a>
            <a class="secao xbox" href="#"></a>
            <a class="secao playstation" href="#"></a>
         </div>
@@ -47,64 +51,121 @@
     <main>
         <h1>Destaques</h1>
         <div class="bar-destaques"></div>
-        <div class="container">
+        <div class="container-destaques">
+        
         <div class="destaques">
-            <a href="#" class="destaque1"><img src="assets/images/switch-zelda-edition.avif" alt=""></a>
-            <h3>Console Nintendo Switch Oled - Edição Especial The Legend Of Zelda: Tears Of The Kingdom</h3>
+            <a href="produto/index.html?id=4" class="destaque1"><img src="assets/images/produtos/thumbnail/switch-zelda-edition.avif" alt=""></a>
+            <h3>Console Nintendo Switch Oled - Edição Especial The Legend Of Zelda</h3>
             <h4>R$ 2899,99</h4>
             <div class="btn-dest">
-                <button>Comprar</button>
+                <button onclick="window.location = 'produto/index.html?id=4'">Comprar</button>
                 <a href=""><i class='bx bx-cart icon'></i></a>
                 <a href=""><i class='bx bxs-heart icon heart'></i></a>
             </div>
         </div>
 
         <div class="destaques">
-            <a href="#" class="destaque2"><img src="assets/images/ps5-ragnarok.webp" alt=""></a>
+            <a href="produto/index.html?id=3" class="destaque2"><img src="assets/images/produtos/thumbnail/ps5-ragnarok.webp" alt=""></a>
             <h3>Console Playstation 5 Digital 825GB + Jogo God Of War: Ragnarok - SONY</h3>
             <h4>R$ 4299,99</h4>
             <div class="btn-dest">
-                <button>Comprar</button>
+                <button onclick="window.location = 'produto/index.html?id=3'">Comprar</button>
                 <a href=""><i class='bx bx-cart icon'></i></a>
                 <a href=""><i class='bx bxs-heart icon heart'></i></a>
             </div>
         </div>
 
         <div class="destaques">
-            <a href="#" class="destaque3"><img src="assets/images/xbox-series-x.webp" alt=""></a>
-            <h3>Console Xbox Series X - Microsoft</h3>
+            <a href="produto/index.html?id=1" class="destaque3"><img src="assets/images/produtos/thumbnail/xbox-series-x.webp" alt=""></a>
+            <h3>Console Xbox Series X 1TB SSD - Microsoft</h3>
             <h4>R$ 3999,99</h4>
             <div class="btn-dest">
-                <button>Comprar</button>
+                <button onclick="window.location = 'produto/index.html?id=1'">Comprar</button>
+                <a href=""><i class='bx bx-cart icon'></i></a>
+                <a href=""><i class='bx bxs-heart icon heart'></i></a>
+            </div>
+
+        <div class="destaques">
+            <a href="produto/index.html?id=2" class="destaque4"><img src="assets/images/produtos/thumbnail/xbox-series-s.webp" alt=""></a>
+            <h3>Console Xbox Series S 500GB SSD - Microsoft</h3>
+            <h4>R$ 2199,99</h4>
+            <div class="btn-dest">
+                <button onclick="window.location = 'produto/index.html?id=2'">Comprar</button>
                 <a href=""><i class='bx bx-cart icon'></i></a>
                 <a href=""><i class='bx bxs-heart icon heart'></i></a>
             </div>
         </div>
 
-        <div class="destaques">
-            <a href="#" class="destaque4"><img src="assets/images/xbox-series-s.webp" alt=""></a>
-            <h3>Console Xbox Series S - Microsoft</h3>
-            <h4>R$ 2199,99</h4>
-            <div class="btn-dest">
-                <button>Comprar</button>
-                <a href=""><i class='bx bx-cart icon'></i></a>
-                <a href=""><i class='bx bxs-heart icon heart'></i></a>
-            </div>
-        </div>   
-          
     </main>
     <section>
         <h1>Promoções</h1>
         <div class="bar-promo"></div>
-        <div class="container">
-            <a href="#" class="promo">.</a>
-            <a href="#" class="promo">.</a>
-            <a href="#" class="promo">.</a>
-            <a href="#" class="promo">.</a>
+        <div class="container-promo">
+            <div class="promo">
+                <a href="#" class="promo1"><img src="assets/images/produtos/thumbnail/xbox-one-s-ms.jpg" alt=""></a>
+                <h3>Console Xbox One S 1TB HD - Microsoft</h3>
+                <h4>R$ 1399,99</h4>
+                <h2>R$ 1699,99</h2>
+                <div class="btn-dest">
+                    <button>Comprar</button>
+                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href=""><i class='bx bxs-heart icon heart'></i></a>
+                </div>
+            </div>
+            <div class="promo">
+                <a href="#" class="promo2"><img src="assets/images/produtos/thumbnail/playstation-vr2-horizon.jpg" alt=""></a>
+                <h3>PlayStation VR2 + Horizon Call of the Mountain</h3>
+                <h4>R$ 4399,99</h4>
+                <h2>R$ 4999,99</h2>
+                <div class="btn-dest">
+                    <button>Comprar</button>
+                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href=""><i class='bx bxs-heart icon heart'></i></a>
+                </div>
+            </div>
+            <div class="promo">
+                <a href="#" class="promo3"><img src="assets/images/produtos/thumbnail/nintendo-pro-controller.jpg" alt=""></a>
+                <h3>Nintendo Switch Pro Controller - HD Rumble</h3>
+                <h4>R$ 399,99</h4>
+                <h2>R$ 449,99</h2>
+                <div class="btn-dest">
+                    <button>Comprar</button>
+                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href=""><i class='bx bxs-heart icon heart'></i></a>
+                </div>
+            </div>
+            <div class="promo">
+                <a href="#" class="promo4"><img src="assets/images/produtos/thumbnail/joy-con.webp" alt=""></a>
+                <h3>Controle Nintendo Switch Joy-Con - Splatoon</h3>
+                <h4>R$ 349,99</h4>
+                <h2>R$ 499,99</h2>
+                <div class="btn-dest">
+                    <button>Comprar</button>
+                    <a href=""><i class='bx bx-cart icon'></i></a>
+                    <a href=""><i class='bx bxs-heart icon heart'></i></a>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
-        ....
+        <div class="footer-socials">
+            <a href="#"><i class='bx bxl-facebook-circle' style='color:#ffffff'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' style='color:#ffffff'></i></a>
+            <a href="#"><i class='bx bxl-twitter' style='color:#ffffff'></i></a>
+            <a href="#"><i class='bx bxl-youtube' style='color:#ffffff'></i></a>
+        </div>
+        <div>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Termos</a>
+            <a href="#">Politica de privacidade</a>
+        </div>
+        <div class="footer-copyright">Copyright © 2023 taverna. Todos os direitos reservados</div>
     </footer>
+
+    <script src="lib/jQuery/jquery.min.js"></script>    
+    <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/home/carouselProdutos.js"></script>
+    <script src="js/home/pesquisar.js"></script>
 </body>
 </html>
