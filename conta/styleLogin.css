@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#containerFormulario {
+    width: 50rem;
+    padding: 15rem 5rem 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 1rem 2rem 2rem #ddd;
+}
+#containerFormulario > h3 {
+    font-size: 4rem;
+}
+
+form {
+    font-size: 1.5rem;
+}
+form .form-control {
+    font-size: 1.7rem;
+    padding: 3rem 3rem 1.3rem!important;
+}
+form input[type=submit] {
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 0.5rem 9rem;
+}
+form #pergunta {
+    font-family: 'Montserrat', sans-serif;
+}
+form #pergunta a {
+    text-decoration: none;
+}
+
+#containerBanner {
+    position: relative;
+    top: 16rem;
+}
+
+#containerBanner #bannerLogo h1, p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Tenor Sans', sans-serif;
+    z-index: 1;
+}
+#containerBanner #bannerLogo h1 {
+    font-size: 10rem;
+}
+#containerBanner #bannerLogo p {
+    position: relative;
+    top: -3rem;
+    font-size: 4rem;
+}
+
+#containerBanner #bannerImgs img{
+    position: relative;
+    top: -10rem;
+}
+#containerBanner #bannerImgs img#img1{
+    width: 25rem;
+}
+#containerBanner #bannerImgs img#img2{
+    position: relative;
+    right: -10rem;
+    width: 30rem;
+}

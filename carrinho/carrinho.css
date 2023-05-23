@@ -1,0 +1,87 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#conteudo {
+    position: relative;
+    top: 14rem;
+}
+
+#cart-icon {
+    font-size: 8rem;
+}
+#carrinhoVazio {
+    margin: 4rem 0;
+}
+
+#produtos {
+    border: 2px solid #b65fb6;
+}
+#produtos .card-produto {
+    margin: 1rem 2rem;
+}
+#produtos .card-produto img, h1 {
+    display: inline;
+}
+#produtos .card-produto img {
+    width: 8rem;
+}
+#produtos .card-produto h1, 
+#produtos .card-produto p {
+    font-size: 2rem;
+}
+#produtos .card-produto input[type=number] {
+    text-align: center;
+    width: 5rem;
+}
+
+#infoProd {
+    position: relative;
+    left: 0.75rem;
+    padding: 1rem;
+    background-color: #b65fb6;
+    color: white;
+    width: 100%;
+}
+#infoProd button {
+    color: white;
+    background-color: transparent;
+    width: 18rem;
+    height: 90%;
+    border: solid 1px white;
+    border-radius: 1rem;
+    font-size: 1.5rem !important;
+}
+#infoProd button, 
+#infoProd p {
+    position: relative;
+    top: -50%;
+    transform: translate(0, 20%);
+}
+#infoProd p {
+    font-size: 2rem;
+}
+
+#containerAdicionar {
+    position: relative;
+    top: 3rem;
+    border: solid 2px #b65fb6;
+}
+#containerAdicionar input, button {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+#containerAdicionar input {
+    width: 6rem;
+}
+#containerAdicionar button {
+    padding: 0.4rem 2rem;
+    background-color: #b65fb6;
+    border: solid 1px #b65fb6;
+    border-radius: 1rem;
+    color: white;
+}

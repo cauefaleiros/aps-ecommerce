@@ -1,0 +1,90 @@
+#texto_pesquisa {
+    font-size: 1.8rem;
+}
+#barra_pesquisa {
+    font-size: 1.5rem;
+    height: 4rem;
+}
+
+#opcoes_filtragem {
+    border: solid 2px #b65fb6;
+}
+#opcoes_filtragem h4 {
+    font-size: 2.5rem !important;
+}
+#opcoes_filtragem p, h6, label, button {
+    font-size: 1.7rem !important;
+}
+#opcoes_filtragem button {
+    color: white;
+    background-color: #b65fb6;
+}
+
+
+#containerContadorResultados {
+    background-color: #b65fb6;
+}
+#containerContadorResultados {
+    font-size: 1.4rem;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    background-color: #fff;  
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.produtos h3 {
+    color: #191919;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+}
+
+.produtos h4 {
+    color: #191919;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.produtos img {
+    height: 25rem;
+    width: 25rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.btn-dest {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.produtos button {
+    padding: 1.5rem;
+    width: 15rem;
+    margin-left: 1rem;
+    background-color: #b65fb6;
+    border-radius: 1rem;
+    color: #fff;
+    border-style: none;
+    font-size: 1.3rem;
+}
+
+.produtos a {
+    color: #b65fb6;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

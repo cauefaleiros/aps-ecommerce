@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Tenor+Sans&display=swap');
+
+html {
+    font-size: 62.5%; 
+/* 62.5%=10px / 100%=16px, logo, 1rem é igual a 16px, porém se colocar ele padrão como 62.5% 1rem terá um total de 10px. */
+}
+
+.conteudo {
+    margin-top: 15rem;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fbfbf9;
+    z-index: 2
+}
+
+header a {
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+}
+
+header hr {
+    margin-top: 1rem;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fbfbf9
+}
+
+.logo {
+    position: absolute;
+    left: 6rem;
+    color: #212121;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.logo h1 {
+    font-size: 5rem;
+}
+.logo h1 a {
+    font-family: 'Tenor Sans', sans-serif;
+    text-decoration: none;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.navsearch {
+    width: 50rem;
+    height: 4rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+.header--icons {
+    position: relative;
+    right: -45rem;
+}
+
+.header--icons a {
+    color: #000;
+}
+
+.header--content ul {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header--content ul a {
+    text-decoration: none;
+}
+
+.header--content ul li {
+    list-style-type: none;
+}
+
+.content:hover {
+    color: #b65fb6;
+}
+
+.icon {
+    margin: 1rem;
+    font-size: 3rem;
+}
