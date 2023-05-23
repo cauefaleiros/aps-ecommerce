@@ -15,7 +15,7 @@ a {
     font-size: 8rem;
 }
 #carrinhoVazio {
-    margin: 4rem 0;
+    margin: 12rem 0;
 }
 
 #produtos {
@@ -84,4 +84,9 @@ a {
     border: solid 1px #b65fb6;
     border-radius: 1rem;
     color: white;
+}
+
+footer {
+    position: relative;
+    top: 35rem;
 }

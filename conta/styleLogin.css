@@ -65,3 +65,8 @@ form #pergunta a {
     right: -10rem;
     width: 30rem;
 }
+
+footer {
+    position: absolute;
+    top: 70rem;
+}

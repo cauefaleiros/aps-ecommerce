@@ -156,7 +156,8 @@ const listaProdutos = [
         descricao: "O controle sem fio DualSense oferece resposta tátil, efeitos de gatilho adaptáveis e um microfone embutido, tudo em um design icônico e confortável. Para problemas defeituosos envie um e-mail para \"faleconosco@solutions2gobr.com\" com as seguintes informações: modelo do controlador e número da NF. A central também pode ser contatada em https://suporte.playstation.com/LiveChatRequest?lang=pt_BR das 12h às 22h. Neste caso você deve informar o PSN ID e o e-mail utilizado em sua conta PSN. Números de telefone: 11 3351 7090: Cidade de São Paulo 0800 724 8310: outras cidades (das 10h00 às 20h00)",
         tags: [
             "playstation",
-            "controle"
+            "controle",
+            "acessorio"
         ]
     },
     {
@@ -172,7 +173,8 @@ const listaProdutos = [
         descricao: "controle para Xbox Series X Xbox Series S - Xbox One X sem Fio Carbon Black Preto Experimente o design modernizado do Controle Sem Fio para Xbx Series X/S Carbon Black na cor preta, com superfícies esculpidas e geometria refinada para maior conforto durante o jogo. Fique no alvo com o grip texturizado e um direcional híbrido. Capture e compartilhe conteúdo perfeitamente com um botão Compartilhar dedicado. Conecte-se, jogue e alterne rapidamente entre dispositivos, incluindo Xbox Series X, Xbox Series S, Xbox One, PC com Windows 10, telefones e tablets compatíveis. (Compatível com dispositivos selecionados e versões de sistema operacional. Algumas funcionalidades não são suportadas no Android via Bluetooth. Mapeamento de botões disponível por meio do aplicativo Acessórios do Xbox para Xbox Series X, Xbox Series S, Xbox One e Windows 10).",
         tags: [
             "xbox",
-            "controle"
+            "controle",
+            "acessorio"
         ]
     },
     {
@@ -188,7 +190,90 @@ const listaProdutos = [
         descricao: "Apresentamos o controle Joy-Con. Esses controles são usados com o console Nintendo Switch e possibilitam maneiras criativas de jogar. O versátil Joy-Con oferece várias formas surpreendentes de diversão aos jogadores. Dois Joy-Con podem ser usados independentemente, um em cada mão, ou juntos, encaixados em um suporte para Joy-Con, funcionando como um só controle. Também é possível encaixá-los no console para jogar no modo portátil, ou compartilhá-los com amigos e desfrutar de uma ação para dois jogadores em jogos compatíveis. Cada Joy-Con conta com todos os botões de ação e pode servir como um controle individual. Cada um deles inclui um acelerômetro e giroscópio, possibilitando controle de movimento na direita e na esquerda.",
         tags: [
             "nintendo",
-            "controle"
+            "controle",
+            "acessorio"
+        ]
+    },
+    {
+        id: 13,
+        nome: "PlayStation VR2 + Horizon Call of the Mountain",
+        preco: 4399.99,
+        thumbnail: "../assets/images/produtos/thumbnail/playstation-vr2-horizon.jpg",
+        imgs: [
+            "https://http2.mlstatic.com/D_NQ_NP_898299-MLB54319006069_032023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_709963-MLB54318937027_032023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_651616-MLB69257450350_052023-O.webp"
+        ],
+        descricao: "Com o Firewall Zero Hour Bundle do Controlador PlayStation VR da Sony , você experimentará um jogo de tiro baseado em esquadrões estratégicos imersivos em realidade virtual. O Sony PlayStation VR Aim Controller oferece rastreamento de movimento preciso, design ergonômico e controles intuitivos para fotografia rápida, fácil e precisa. Além disso, está equipado com feedback de vibração, para que você possa sentir a ação. Por favor, note que o headset PlayStation VR e a PlayStation Camera são necessários.",
+        tags: [
+            "playstation",
+            "acessorio"
+        ]
+    },
+    {
+        id: 14,
+        nome: "Nintendo Switch Pro Controller - HD Rumble",
+        preco: 399.99,
+        thumbnail: "../assets/images/produtos/thumbnail/nintendo-pro-controller.jpg",
+        imgs: [
+            "https://m.media-amazon.com/images/I/7166--AaJIL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81GutZPdWiL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71CbYcn-kZL._AC_SX679_.jpg"
+        ],
+        descricao: "A Nova Forma: Completamente Wireless Controller Joga Qualquer Jogo No Wii U !. A Aderência Estilo Ergonómico Permite O Conforto Jogador Durante Fps Jogos E Corridas De Saltos Complexos. Linha Adicional De Botões De Ombro Expande Sobre Opções De Controle No Jogo. Leve Suas Sessões De Jogos Até Um Entalhe Com O Nintendo Switch Pro Controller. Inclui Controles De Movimento, Hd Rumble, Built-In Funcionalidade Amiibo, E Muito Mais.",
+        tags: [
+            "nintendo",
+            "controle",
+            "acessorio"
+        ]
+    },
+    {
+        id: 15,
+        nome: "Controle Nintendo Switch Joy-Con - Splatoon",
+        preco: 349.99,
+        thumbnail: "../assets/images/produtos/thumbnail/joy-con.webp",
+        imgs: [
+            "https://m.media-amazon.com/images/I/61nJt1+yhVL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61Eq8qjyyJL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/717S4EEjD9L._AC_SX679_.jpg"
+        ],
+        descricao: "Apresentamos o controle Joy-Con. Esses controles são usados com o console Nintendo Switch e possibilitam maneiras criativas de jogar. O versátil Joy-Con oferece várias formas surpreendentes de diversão aos jogadores. Dois Joy-Con podem ser usados independentemente, um em cada mão, ou juntos, encaixados em um suporte para Joy-Con, funcionando como um só controle. Também é possível encaixá-los no console para jogar no modo portátil, ou compartilhá-los com amigos e desfrutar de uma ação para dois jogadores em jogos compatíveis. Cada Joy-Con conta com todos os botões de ação e pode servir como um controle individual. Cada um deles inclui um acelerômetro e giroscópio, possibilitando controle de movimento na direita e na esquerda.",
+        tags: [
+            "nintendo",
+            "controle",
+            "acessorio"
+        ]
+    },
+    {
+        id: 16,
+        nome: "Microsoft Xbox One X 1TB Standard cor preto",
+        preco: 2399.99,
+        thumbnail: "https://cdn.awsli.com.br/2500x2500/1571/1571091/produto/58745670/9b942e7b3b.jpg",
+        imgs: [
+            "https://http2.mlstatic.com/D_NQ_NP_634774-MLA32732578360_112019-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_602241-MLA32731813556_112019-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_914615-MLA54983373337_052023-O.webp"
+        ],
+        descricao: "Apresentamos o xbox series x, nosso console mais rápido e poderoso de todos os tempos; jogue milhares de títulos de quatro gerações de consoles- todos os jogos têm melhor aparência e são melhor executados no xbox series x; no coração do series x está a xbox velocity architecture, que combina um ssd personalizado e software integrado para diminuir significativamente os tempos de carregamento dentro e fora do jogo; troque simultaneamente entre vários jogos em um instante com o quick resume; explore novos mundos e desfrute da ação como nunca antes com 12 teraflops incomparáveis de poder de processamento gráfico; desfrute de jogos 4k a até 120 quadros por segundo, som 3d avançado especial e muito mais; comece com uma biblioteca instantânea de mais de 100 jogos de alta qualidade, incluindo todos os novos títulos do xbox game studios no mesmo dia do seu lançamento como o halo infinite, com o xbox game pass ultimate (assinatura vendida separadamente) ***informações importantes:4k a 120 fps: requer conteúdo e exibição compatíveis; use-o no xbox series x conforme o conteúdo for disponibilizado.xbox game pass: o catálogo de jogos varia ao longo do tempo .halo infinite: lançamento em 2021.smart delivery: apenas jogos compatíveis.",
+        tags: [
+            "xbox",
+            "console"
+        ]
+    },
+    {
+        id: 17,
+        nome: "Microsoft Xbox One S 1TB Standard cor preto",
+        preco:  1399.99,
+        thumbnail: "../assets/images/produtos/thumbnail/xbox-one-s-ms.jpg",
+        imgs: [
+            "https://images.tcdn.com.br/img/img_prod/1087887/microsoft_xbox_one_s_1tb_standard_branco_usado_253_variacao_31_2_74f641dc5610d02f43ab12244ee832cb.jpg",
+            "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lff1n1z5ylkr9f",
+            "https://m.media-amazon.com/images/I/81Z1xBs6GoL._AC_SX679_.jpg"
+        ],
+        descricao: "Xbox series s, nosso xbox menor e mais elegante de todos os tempos; com taxas de quadros mais altas, tempos de carregamento mais rápidos e mundos mais ricos e dinâmicos, o xbox series s oferece desempenho e velocidade de última geração em um formato compacto e totalmente digital.",
+        tags: [
+            "xbox",
+            "console"
         ]
     }
 
