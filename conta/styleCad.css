@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #232023;  
+    background-color: #fbfbf9;  
 }
 
 
@@ -35,7 +35,7 @@ body {
 
 
 header a {
-    color: #fff;
+    color: #000;
 }
 
 .navbar {
@@ -44,11 +44,11 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #232023;
+    background-color: #fbfbf9;
 }
 
 .logo {
-    color: #fff;
+    color: #000;
     font-family: 'Tenor Sans', sans-serif;
 }
 .logo h1{
@@ -78,9 +78,6 @@ header a {
     align-items: center;
     background-color: #adadc9;
     padding: 1rem;
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-    margin-top: 1.5rem;
 }
 
 .form--img img {
@@ -95,9 +92,6 @@ header a {
     flex-direction: column;
     padding: 3rem;
     background-color: #fbfbf9;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    margin-top: 1.5rem;
 }
 
 .form--header {
@@ -173,7 +167,7 @@ header a {
 .gender--title h6 {
     font-size: 1.5rem;
     font-weight: 600;
-   color: #000000c0; 
+    color: #000000c0; 
 }
 
 .input--box input::placeholder {

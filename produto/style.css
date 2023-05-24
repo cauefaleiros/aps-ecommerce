@@ -1,57 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Tenor+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+     font-size: 62.5%; 
+/* 62.5%=10px / 100%=16px, logo, 1rem é igual a 16px, porém se colocar ele padrão como 62.5% 1rem terá um total de 10px. */
+}
+
+body {
+    background-color: #fbfbf9;  
+}
+
+/* Header */
+
+header a {
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+}
+
+header hr {
+    margin-top: 3rem;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fbfbf9;
+    margin-top: 3rem;
+}
+
+.logo {
+    color: #212121;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.logo h1{
+    font-size: 5rem !important;
+}
+
+.logo h2{
+    position: relative;
+    top: -1rem;
+    left: 1rem;
+    font-size: 2.5rem !important;
+    margin-left: 0.45rem;
+}
+
+.navsearch {
+    width: 50rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+.btn {
+    border: 0;
+    background: transparent;
+    margin-left: -2.8rem;
+
+}
+
+.btn img {
+    width: 16px;
+    height: 16px;
+}
+
+.icon {
+    margin: 2rem;
+    font-size: 4rem;
+}
+
+.header--icons a {
+    color: #000;
+}
+
+.header--content ul {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content:hover {
+    color: #b65fb6;
+}
+
+/* Conteudo */
+
 #conteudo {
     position: relative;
-    top: 13rem;
+    top: 7rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #imgsEscolher img {
     display: block;
     width: 10rem;
     height: 10rem;
-    margin-bottom: 2rem;   
-    box-shadow: 2rem 2rem 2rem #ccc;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    border: 1.5px #b65fb6 solid;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);  
+    cursor: pointer;
 }
 
-#containerSelecionada {
-    width: 46rem;
-    height: 46rem;
-    box-shadow: 3rem 3rem 3rem #ccc;
-}
 #containerSelecionada #selecionada {
     position: relative;
     top: 50%;
-    transform: translate(0, -50%);
-    width: 45rem;
+    width: 58rem;
+    height: 58rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 #prodInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 48rem;
-    background-color: #b65fb6;
-    border: 3px #985098 solid;
-    border-radius: 1.5rem;
-    box-shadow: 3rem 3rem 2rem #ccc;
-    padding: 2rem;
-    margin-left: 12rem;
-    color: #f6f6f6;
+    height: 40rem;
+    width: 70rem;
+    margin-right: 2rem;
+    background-color: #fbfbf9;
 }
+
 #prodInfo #preco{
-    align-self: self-end;
     margin: 4rem 0 0.5rem;
     font-size: 3rem;
+    margin-right: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
+
 #prodInfo h1{
     font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
 }
 #prodInfo p {
     align-self: self-end;
     font-size: 1.5rem;
     margin-bottom: 10rem;
+    margin-right: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 #prodInfo button,
 #prodInfo i {
-    color: #f6f6f6;
+    color: #b65fb6;
     margin: 0 2rem
 }
 #prodInfo i {
@@ -60,31 +172,60 @@
 }
 #prodInfo button {
     font-size: 2rem;
-    border: solid 2px #f6f6f6;
+    background-color: #b65fb6;
     padding: 0.7rem 3.5rem;
+    color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
 }
 
 #btn-dest {
-    align-self: center;
+    position: relative;
+    bottom: 38%;
 }
 
 #descricao {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     border-radius: 1rem;
-    background-color: white;
+    background-color: #fff;
     padding: 4rem;
-    margin-top: 10rem;
-    width: 80rem;
-    color: #777;
-    box-shadow: 3rem 3rem 2rem #ccc;
+    margin-top: 5rem;
+    width: 80%;
+    color: #2c2c2c;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
+
 #descricao p {
     font-size: 1.5rem;
 }
 
+/* Footer */
+
 footer {
     position: relative;
-    top: 25rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    margin-top: 15rem;
+    background-color: #191919;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 2rem;
+    padding-right: 1.5rem;
+}
+
+.footer-logo {
+    font-size: 3rem;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.footer-socials i {
+    font-size: 4rem;
+    margin: 1rem;
 }
