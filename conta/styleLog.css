@@ -91,7 +91,6 @@ header a {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     padding: 3rem;
     background-color: #fbfbf9;
@@ -104,29 +103,6 @@ header a {
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
-}
-
-.login--button {
-    display: flex;
-    align-items: center;
-}
-
-.login--button button {
-    border: none;
-    background-color: #b65fb6;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.login--button button:hover {
-    background-color: #954e95;
-}
-
-.login--button button a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
 }
 
 .form--header h1::after {
@@ -143,7 +119,7 @@ header a {
 .input--group {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 1rem 0;
 }
 
@@ -173,33 +149,11 @@ header a {
 .gender--title h6 {
     font-size: 1.5rem;
     font-weight: 600;
-   color: #000000c0; 
+    color: #000000c0; 
 }
 
 .input--box input::placeholder {
     color: #000000be;
-}
-
-.gender--group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 0.5rem;
-}
-
-.gender--input {
-    display: flex;
-    align-items: center;
-}
-
-.gender--input input {
-    margin-right: 0.35rem;
-}
-
-.gender--input label {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #000000c0;
 }
 
 .continue--button button {
@@ -251,17 +205,4 @@ header a {
         max-height: 10rem;
         padding-right: 5rem;
     }
-
-    .input--gender {
-        margin-top: 2rem;
-    }
-
-    .gender--group {
-        flex-direction: column;
-    }
-
-    .gender--input {
-        margin-top: 0.5rem;
-    }
-
 }
